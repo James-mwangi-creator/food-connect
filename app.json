@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Food Connect",
+    "slug": "food-connect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#43A047"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jamesmwangicreator.foodconnect"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#43A047"
+      },
+      "package": "com.jamesmwangicreator.foodconnect"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
